@@ -100,4 +100,14 @@ public:
 
 	}
 
+	void postorder(Node* ptr)
+	{
+		// prefoms the postorder traversal of the tree
+		if (ROOT == NULL)
+		{
+			cout << "Tree is empty" << endl;
+			return;
+		}
+	}
+
 };
